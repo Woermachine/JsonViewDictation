@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JsonViewDictation</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="prev_cont_desc">Previous button</string>
+    <string name="next_button">Next button</string>
+</resources>

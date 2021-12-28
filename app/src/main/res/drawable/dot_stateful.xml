@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_focused="true"
+        android:drawable="@drawable/circle_filled"
+        app:tint="#FFFF0000"
+        android:color ="#FFFF0000"/>
+    <item android:state_focused="false"
+        android:drawable="@drawable/circle_outline"
+        app:tint ="#FF00FF00"
+        android:color ="#FF00FF00"/>
+</selector>

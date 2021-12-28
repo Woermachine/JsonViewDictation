@@ -1,0 +1,28 @@
+{
+  "progress" : {
+    "show_progress" : true,
+    "progress_type" : "DOTS",
+    "primary_color": "#FFFF0000",
+    "secondary_color" : "#FF00FF00"
+  },
+  "show_buttons" : true,
+  "page_array" : [
+    {
+      "text": "page 1",
+      "text_color": "#FFFFFFFF",
+      "background_color": "FFFFFFFF"
+    },
+    {
+      "text": "page 2",
+      "text_color": "#FFFFFFFF",
+      "background_color": "00000000"
+    },
+    {
+      "text": "page 3",
+      "text_color": "#FFFFFFFF",
+      "background_color": "FFFFFFFF"
+    }
+  ],
+  "button_color" : "#FF039BE5",
+  "button_tint" : "#FF3700B3"
+}
