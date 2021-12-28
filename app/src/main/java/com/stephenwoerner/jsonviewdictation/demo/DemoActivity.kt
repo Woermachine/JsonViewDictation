@@ -1,11 +1,8 @@
 package com.stephenwoerner.jsonviewdictation.demo
 
-import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.AttributeSet
 import android.util.Log
-import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.stephenwoerner.jsonviewdictation.AnnouncementsFragment
 import com.stephenwoerner.jsonviewdictation.AnnouncementsListener
 import com.stephenwoerner.jsonviewdictation.databinding.ActivityFullscreenBinding

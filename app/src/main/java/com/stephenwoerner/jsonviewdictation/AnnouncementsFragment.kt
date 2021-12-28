@@ -11,6 +11,9 @@ import androidx.fragment.app.Fragment
 import com.google.gson.Gson
 import com.stephenwoerner.jsonviewdictation.databinding.AnnouncementsFragmentBinding
 
+/**
+ * Fragment holding all UI elements for the announcement flow. Place in desired root fragment holder
+ */
 class AnnouncementsFragment private constructor(private val pageParams: JsonViewPages, private val listener : AnnouncementsListener ) : Fragment() {
 
     private val onClickListener = View.OnClickListener {
@@ -175,12 +178,21 @@ class AnnouncementsFragment private constructor(private val pageParams: JsonView
     companion object {
         val TAG = AnnouncementsFragment::class.java.simpleName ?: "AnnouncementsFragment"
 
+        /**
+         * Create an AnnouncementsFragments based the given JSON string
+         * @param jsonStr a string of JSON to parse
+         * @param newListener an interface for AnnouncementsListener to communicate with host application
+         */
         fun create(jsonStr : String, newListener: AnnouncementsListener) : AnnouncementsFragment {
             return create(Gson().fromJson(jsonStr, JsonViewPages::class.java), newListener)
         }
 
+        /**
+         * Create an AnnouncementsFragments based the given JSON string
+         * @param newParams a JsonViewPages serving as the basis of the displayed announcements
+         * @param newListener an interface for AnnouncementsListener to communicate with host application
+         */
         fun create(newParams : JsonViewPages, newListener: AnnouncementsListener) : AnnouncementsFragment {
-
             return AnnouncementsFragment(newParams, newListener)
         }
     }

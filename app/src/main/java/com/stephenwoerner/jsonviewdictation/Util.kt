@@ -7,6 +7,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 
+/**
+ * Utility Class
+ */
 object Util {
 
     fun show(v : View?, show: Boolean?) {

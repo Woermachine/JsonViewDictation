@@ -2,6 +2,9 @@ package com.stephenwoerner.jsonviewdictation
 
 import com.google.gson.annotations.SerializedName
 
+/**
+ * Encapsulates a page in the announcement view.
+ */
 class Page {
     val text: String? = null
 

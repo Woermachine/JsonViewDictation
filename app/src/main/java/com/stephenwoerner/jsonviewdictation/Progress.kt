@@ -2,7 +2,9 @@ package com.stephenwoerner.jsonviewdictation
 
 import com.google.gson.annotations.SerializedName
 
-
+/**
+ * Encapsulates a progress view for the announcement flow
+ */
 class Progress {
     @SerializedName(value = "show_progress")
     var showProgress : Boolean? = null

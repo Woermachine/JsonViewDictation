@@ -10,6 +10,9 @@ import com.squareup.picasso.Picasso
 import com.stephenwoerner.jsonviewdictation.databinding.PageFragmentBinding
 import java.lang.Exception
 
+/**
+ * A Fragment based on the contents of each Page object passed to AnnouncementFragment
+ */
 class PageFragment private constructor(private val pageData: Page): Fragment() {
 
     private lateinit var binding : PageFragmentBinding

@@ -2,6 +2,11 @@ package com.stephenwoerner.jsonviewdictation
 
 import com.google.gson.annotations.SerializedName
 
+/**
+ * Root data object passed to AnnouncementFragment,
+ *
+ * Encapsulates the set of information to needed to create an AnnouncementFragment
+ */
 class JsonViewPages {
     val progress: Progress? = null
 
