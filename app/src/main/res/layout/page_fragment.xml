@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/page_view"
-    android:background="#FF000000">
+    android:id="@+id/page_view">
 
 
     <LinearLayout
@@ -23,9 +22,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:src="@drawable/circle_filled"
-            app:tint="@color/light_blue_600"
-            android:layout_gravity="center" />
+            android:src="@drawable/no_image"
+            tools:tint="@color/light_blue_600"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            tools:visibility="visible"/>
         <TextView
             android:id="@+id/page_text_view"
             android:layout_width="wrap_content"
@@ -33,6 +34,8 @@
             tools:text="Aweseome youasd asdsd sdas  sada sdasd asd asdasd asdasd asd asd"
             android:layout_gravity="center"
             android:gravity="center"
+            android:visibility="gone"
+            tools:visibility="visible"
             />
     </LinearLayout>
 

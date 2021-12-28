@@ -153,7 +153,7 @@ class AnnouncementsFragment private constructor(private val pageParams: JsonView
             newDotView.imageTintList = ColorStateList.valueOf(primaryColor)
         }
 
-        binding.progressBar.progress = newPageIndex
+        binding.progressBar.progress = newPageIndex + 1
     }
 
     private fun setFabTint(colorRef: String?) {

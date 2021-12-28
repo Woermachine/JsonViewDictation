@@ -36,7 +36,7 @@ class DemoActivity : AppCompatActivity() {
         announcementsFrag = AnnouncementsFragment.create("{\n" +
                 "  \"progress\" : {\n" +
                 "    \"show_progress\" : true,\n" +
-                "    \"progress_type\" : \"DOTS\",\n" +
+                "    \"progress_type\" : \"BAR\",\n" +
                 "    \"primary_color\": \"#FF039BE5\",\n" +
                 "    \"secondary_color\" : \"#FFBB86FC\"\n" +
                 "  },\n" +
@@ -45,12 +45,14 @@ class DemoActivity : AppCompatActivity() {
                 "    {\n" +
                 "      \"text\": \"page 1\",\n" +
                 "      \"text_color\": \"#FFFFFFFF\",\n" +
-                "      \"background_color\": \"#FF000000\"\n" +
+                "      \"background_color\": \"#FF000000\"\n," +
+                "      \"image\": \"https://cms-assets.tutsplus.com/cdn-cgi/image/width=1700/uploads/users/523/posts/32694/final_image/tutorial-preview-large.png\"\n" +
                 "    },\n" +
                 "    {\n" +
                 "      \"text\": \"page 2\",\n" +
                 "      \"text_color\": \"#FF000000\",\n" +
-                "      \"background_color\": \"#FFFFFFFF\"\n" +
+                "      \"background_color\": \"#FFFFFFFF\",\n" +
+                "      \"image\": \"R.drawable.circle_filled\"\n" +
                 "    },\n" +
                 "    {\n" +
                 "      \"text\": \"page 3\",\n" +
